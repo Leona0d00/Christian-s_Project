@@ -1,0 +1,3 @@
+[submodule "SenseVoice"]
+	path = SenseVoice
+	url = git@github.com:FunAudioLLM/SenseVoice.git
