@@ -1,23 +1,13 @@
-# ================= SenseVoice 基础依赖 =================
---extra-index-url https://download.pytorch.org/whl/cu121
+# ================= 语音识别核心 (剔除 openwakeword) =================
+funasr>=1.1.0
 modelscope>=1.10.0
-huggingface
-huggingface_hub
-funasr>=1.1.3
-numpy<=1.26.4
-gradio
-fastapi>=0.111.1
 
-# ================= 项目额外依赖 =================
+# ================= 音频采集与基础处理 =================
 pyaudio>=0.2.14
-webrtcvad>=2.0.10
+numpy>=1.24.0
 soundfile>=0.12.1
 scipy>=1.4.1
 librosa>=0.9.0
+
+# ================= 可选：网络通信 =================
 aiohttp>=3.9.0
-
-# ================= 唤醒词引擎 =================
-openwakeword>=0.5.0
-
-# ================= GPU 加速器 (手动安装)=================
-# onnxruntime-gpu 需在装完PyTorch后手动安装以精确控制版本
