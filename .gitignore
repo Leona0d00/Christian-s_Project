@@ -1,8 +1,7 @@
-.vscode
-.claude
+.vscode/
+.claude/
 *.txt
 !requirements.txt
 *.wav
 
 script/__pycache__
-
