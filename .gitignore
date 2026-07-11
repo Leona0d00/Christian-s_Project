@@ -4,4 +4,4 @@
 !requirements.txt
 *.wav
 
-script/__pycache__
+script/
