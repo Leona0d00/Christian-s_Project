@@ -1,0 +1,23 @@
+# Dependencies (downloaded)
+deps/
+models/
+lib/sherpa-onnx/
+
+# Build outputs
+build/
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+*.def
+
+# Windows null device (can be created by shell redirects)
+NUL
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
