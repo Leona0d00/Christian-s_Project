@@ -5,3 +5,4 @@
 *.wav
 
 script/__pycache__
+new-script/
